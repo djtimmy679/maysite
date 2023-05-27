@@ -22,14 +22,14 @@
 			justify-content: center;
 			margin: 40px 0;
 		}
-        .photos img {
-        width: 250px;
-        height: 250px;
-        object-fit: cover;
-        margin: 0 20px;
-        border-radius: 50%;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-        }
+		.photos img {
+			width: 250px;
+			height: 250px;
+			object-fit: cover;
+			margin: 0 20px;
+			border-radius: 50%;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+		}
 		button {
 			padding: 10px 20px;
 			font-size: 18px;
@@ -37,6 +37,11 @@
 			border-radius: 5px;
 			cursor: pointer;
 			margin: 0 10px;
+			position: fixed;
+			top: 20px;
+			right: 20px;
+			background-color: #2ecc71;
+			color: #fff;
 		}
 		button.yes {
 			background-color: #2ecc71;
@@ -51,7 +56,7 @@
 <body>
 	<div class="container">
 		<h1>May, want to be my girlfriend?</h1>
-        <p>First, click on each of the photos. Then, pick a button at the bottom</p>
+		<p>First, click on each of the photos. Then, pick a button at the bottom</p>
 		<div class="photos">
 			<img src="images/photo1.jpg" alt="Photo 1" onclick="location.href='list.html';">
 			<img src="images/photo2.jpg" alt="Photo 2" onclick="location.href='list2.html';">
@@ -60,9 +65,6 @@
 		<button class="yes"><a href="yes.html">Yes</a></button>
 		<button class="no"><a href="no.html">No</a></button>
 	</div>
-	<button onclick="window.location.href='bucketlist.html';">Bucket List</button>
-	<button onclick="window.location.href='onemonthupdate.html';">One Month Update</button>
-	<button onclick="window.location.href='twomonthupdate.html';">Two Month Update</button>
-	<button onclick="window.location.href='hotel.html';">Hotel</button>
+	<button onclick="window.location.href='login.html';">Log In</button>
 </body>
-</html> 
+</html>
