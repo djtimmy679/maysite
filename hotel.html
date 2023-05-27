@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Deja Vu Hotel | Ithaca, NY</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <header class="header">
-        <nav class="nav-bar">
-            <h1 class="logo">Deja Vu Hotel</h1>
-        </nav>
+    <head>
+        <title>Deja Vu Hotel | Ithaca, NY</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            .back-button {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                padding: 10px 20px;
+                background-color: #333;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+    
+            .back-button a {
+                color: #fff;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav-bar">
+                <h1 class="logo">Deja Vu Hotel</h1>
+                <button class="book-button back-button">
+                    <a href="welcome.html">Back to Home</a>
+                </button>
+            </nav>
         <div class="hero" id="home">
             <h2 class="hero-text">Welcome to Deja Vu Hotel</h2>
             <p class="hero-subtext">A modern and elegant hotel in Ithaca, NY</p>
