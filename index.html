@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>May, want to be my girlfriend?</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f5f5f5;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 40px 20px;
+			text-align: center;
+		}
+		h1 {
+			font-size: 36px;
+			margin-top: 0;
+		}
+		.photos {
+			display: flex;
+			justify-content: center;
+			margin: 40px 0;
+		}
+        .photos img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        margin: 0 20px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+		button {
+			padding: 10px 20px;
+			font-size: 18px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			margin: 0 10px;
+		}
+		button.yes {
+			background-color: #2ecc71;
+			color: #fff;
+		}
+		button.no {
+			background-color: #e74c3c;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>May, want to be my girlfriend?</h1>
+        <p>First, click on each of the photos. Then, pick a button at the bottom</p>
+		<div class="photos">
+			<img src="photo1.jpg" alt="Photo 1" onclick="location.href='list.html';">
+			<img src="photo2.jpg" alt="Photo 2" onclick="location.href='list2.html';">
+			<img src="photo3.jpg" alt="Photo 3" onclick="location.href='gallery.html';">
+		</div>
+		<button class="yes"><a href="yes.html">Yes</a></button>
+		<button class="no"><a href="no.html">No</a></button>
+	</div>
+	<button onclick="window.location.href='bucketlist.html';">Bucket List</button>
+	<button onclick="window.location.href='onemonthupdate.html';">One Month Update</button>
+	<button onclick="window.location.href='twomonthupdate.html';">Two Month Update</button>
+	<button onclick="window.location.href='hotel.html';">Hotel</button>
+</body>
+</html> 
