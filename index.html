@@ -6,6 +6,8 @@
 		body {
 			font-family: Arial, sans-serif;
 			background-color: #f5f5f5;
+			margin: 0;
+			padding: 0;
 		}
 		.container {
 			max-width: 800px;
@@ -53,12 +55,27 @@
 			background-color: #e74c3c;
 			color: #fff;
 		}
+		.time-container {
+			display: flex;
+			justify-content: flex-start;
+			padding: 10px;
+			background-color: #e6e6e6;
+		}
+		.time-container iframe {
+			margin-left: 10px;
+		}
 	</style>
 </head>
 <body>
+	<div class="time-container">
+		<span class="clock-label">Timmy:</span>
+		<iframe src="https://free.timeanddate.com/clock/i8vjyu3e/n234/fn9/fs20/tct/pct/th2/ts1" frameborder="0" width="133" height="25" allowtransparency="true"></iframe>
+		<span class="clock-label">May:</span>
+		<iframe src="https://free.timeanddate.com/clock/i8vjyu3e/n218/fn9/fs20/tct/pct/th2/ts1" frameborder="0" width="133" height="25" allowtransparency="true"></iframe>
+	</div>
 	<div class="container">
 		<h1>May, want to be my girlfriend?</h1>
-		<p>First, click on each of the photos. Then, pick a button at the bottom</p>
+		<p>First, click on each of the photos. Then, pick a button at the bottom.</p>
 		<div class="photos">
 			<img src="images/photo1.jpg" alt="Photo 1" onclick="location.href='list.html';">
 			<img src="images/photo2.jpg" alt="Photo 2" onclick="location.href='list2.html';">
