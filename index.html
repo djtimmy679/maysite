@@ -6,6 +6,8 @@
 		body {
 			font-family: Arial, sans-serif;
 			background-color: #f5f5f5;
+			margin: 0;
+			padding: 0;
 		}
 		.container {
 			max-width: 800px;
@@ -53,12 +55,26 @@
 			background-color: #e74c3c;
 			color: #fff;
 		}
+		.time-container {
+			display: flex;
+			justify-content: flex-start;
+			padding: 10px;
+		}
+		.time-container iframe {
+			margin-left: 10px;
+		}
 	</style>
 </head>
 <body>
+	<div class="time-container">
+		<span class="clock-label">Timmy:</span>
+		<iframe src="https://free.timeanddate.com/clock/i8wbuf49/n263/fn7/fs20/tct/pct/th2/ts1" frameborder="0" width="140" height="30" allowtransparency="true"></iframe>
+		<span class="clock-label">May:</span>
+		<iframe src="https://free.timeanddate.com/clock/i8wbuf49/n218/fn7/fs20/tct/pct/th2/ts1" frameborder="0" width="140" height="30" allowtransparency="true"></iframe>
+	</div>
 	<div class="container">
 		<h1>May, want to be my girlfriend?</h1>
-		<p>First, click on each of the photos. Then, pick a button at the bottom</p>
+		<p>First, click on each of the photos. Then, pick a button at the bottom.</p>
 		<div class="photos">
 			<img src="images/photo1.jpg" alt="Photo 1" onclick="location.href='list.html';">
 			<img src="images/photo2.jpg" alt="Photo 2" onclick="location.href='list2.html';">
@@ -67,6 +83,7 @@
 		<button class="yes"><a href="yes.html">Yes</a></button>
 		<button class="no"><a href="no.html">No</a></button>
 	</div>
+	<iframe class="bottom" src="https://free.timeanddate.com/countdown/i8vki3fq/n179/cf13/cm0/cu4/ct0/cs0/ca0/cr0/ss0/cac000/cpc000/pct/tcf1d8e7/fs100/szw320/szh135/tatUntil%20we%20see%20each%20other%20again%20%3C3/tac000/tptTime%20since%20Event%20started%20in/tpc000/mac000/mpc000/iso2023-08-20T12:00:00" allowtransparency="true" frameborder="0" width="295" height="116"></iframe>
 	<button class="login" onclick="window.location.href='login.html';">Log In</button>
 </body>
 </html>
