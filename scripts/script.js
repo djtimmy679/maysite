@@ -5,7 +5,7 @@ function authenticate(event) {
     var password = document.getElementById("password").value;
     var errorText = document.getElementById("errorText");
     
-    if (username === "may" && password === "quirkyboobsfreakydick") {
+    if (username === "may" && password === "iamreallyhorny") {
       // Successful authentication
       window.location.href = "welcome.html"; // Redirect to a welcome page
     } else {
