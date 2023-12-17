@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4b5320; /* Olive green, typical for army themes */
+    color: white;
+    text-align: center;
+}
+h1 {
+    margin-top: 50px;
+}
+.back-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #6b8e23; /* A lighter shade of olive green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.back-button:hover {
+    background-color: #556b2f; /* Darker shade for hover effect */
+}
